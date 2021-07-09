@@ -1,0 +1,44 @@
+{
+	"DEBUG" : 1,
+	"DATABASE": {
+		"ENGINE": "djongo",
+		"NAME": "chatbotdb",
+		"HOST": "127.0.0.1",
+		"PORT": 27017,
+		"COLLECTION": "galaxy_book"
+	},
+	"LOGGER": {
+		"LOG_LEVEL": "DEBUG",
+		"FILENAME": "chatbot.log"
+	},
+	"ALLOWED_HOSTS": [
+		"127.0.0.1",
+		"10.253.30.94",
+		"localhost"
+	],
+	"PRODUCTS": [
+		"GALAXY"
+	],
+	"MONGOSERVICE": {
+		"URL": "http://127.0.0.1:8001/",
+		"ENDPOINTS": {
+			"POSTPROC": "postprocdata/",
+			"PREPROC": "preprocdata/",
+			"FETCHBYKEY": "fetchbyid/",
+			"UNANSWERED": "insertunanswered/"
+		}
+	},
+	"CORESERVICES": {
+		"ENDPOINTS": {
+			"GETACCOUNTS": "getaccounts/",
+			"GETMEMBERINFO": "getmemberinfo/",
+			"GETACCOUNTSTMT": "getaccountstmt/"
+		},
+		"DATASAFE": {
+			"URL": "http://127.0.0.1:8002/"
+		},
+		"CUNIFY": {
+			"URL": "http://127.0.0.1:8003/"
+		}
+	}
+}
