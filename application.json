@@ -2,13 +2,13 @@
 	"DATABASE": {
 		"NAME": "chatbotdb",
 		"HOST": "127.0.0.1",
-		"PORT": 27017,
+		"PORT": 27017
 	},
 	"PRODUCTS": [
-		"DATASAFE",
+		"DATASAFE"
 	],
 	"DISCOVERYSERVICE": {
-		"HOST": "127.0.0.1:8001",
+		"HOST": "127.0.0.1",
 		"PORT": 8010
 	}
 }
