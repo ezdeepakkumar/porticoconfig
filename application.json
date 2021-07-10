@@ -4,11 +4,14 @@
 		"HOST": "127.0.0.1",
 		"PORT": 27017
 	},
-	"PRODUCTS": [
-		"DATASAFE"
-	],
-	"DISCOVERYSERVICE": {
-		"HOST": "127.0.0.1",
-		"PORT": 8010
+	"PRODUCTS": {
+		"DATASAFE" : {
+			"HOST": "10.41.180.93",
+			"PORT": 9002
+		},
+		"XP2" : {
+			"HOST": "10.41.180.94",
+			"PORT": 8010
+		}
 	}
 }
